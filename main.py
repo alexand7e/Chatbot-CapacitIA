@@ -30,7 +30,7 @@ def setup_gemini_model(api_key):
 
 # Função principal do Streamlit
 def main():
-    st.title("Assistente de Relatórios | Governo do Estado do Piauí")
+    st.title("Assistente de Correção de Textos")
     
     # Input para a chave API
     api_key = st.text_input("Digite sua Chave API do Gemini", type="password")
